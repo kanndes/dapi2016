@@ -1,0 +1,49 @@
+know the data
+characterize the dataset
+Do something with data
+
+
+#############################
+
+Reddit is a social media, social news aggregation, web content rating, and discussion website. Reddit's registered community members can submit content, such as text posts or direct links. Registered users can then vote submissions up or down to organize the posts and determine their position on the site's pages. The submissions with the most positive votes appear on the front page or the top of a category. Content entries are organized by areas of interest called "subreddits". The subreddit topics include news, science, gaming, movies, music, books, fitness, food, and image-sharing, among many others.
+
+Reddit was founded by University of Virginia roommates Steve Huffman and Alexis Ohanian in 2005. 
+
+As of 2016, Reddit had 542 million monthly visitors (234 million unique users), ranking #11 most visited web-site in US and #25 in the world. Across 2015, Reddit saw 82.54 billion pageviews, 73.15 million submissions, 725.85 million comments, and 6.89 billion upvotes from its users.
+
+https://en.wikipedia.org/wiki/Reddit
+
+JSON
+
+###############################
+
+I am currently doing a massive analysis of Reddit's entire publicly available comment dataset. The dataset is ~1.7 billion JSON objects complete with the comment, score, author, subreddit, position in comment tree and other fields that are available through Reddit's API.
+
+I'm currently doing NLP analysis and also putting the entire dataset into a large searchable database using Sphinxsearch (also testing ElasticSearch).
+
+This dataset is over 1 terabyte uncompressed, so this would be best for larger research projects. If you're interested in a sample month of comments, that can be arranged as well. I am trying to find a place to host this large dataset -- I'm reaching out to Amazon since they have open data initiatives.
+
+https://www.reddit.com/r/datasets/comments/3bxlg7/i_have_every_publicly_available_reddit_comment/
+
+##############################
+
+What are we gonna do with data?
+
+Json format - use something to work with it
+Treat the information
+Pay attention to abreviatures
+Make funny things with words most used on certain topics
+
+
+TO WORK WITH JSON -> https://github.com/dewarim/reddit-data-tools
+
+###############################
+
+What is our app going to do?
+
+Display threads with most topics
+Display most used words relating to a certain topic
+Display most upvoted comments
+Common questions relations
+Title vs content -> find if after a certain amount of topics, the thread derails.
+Infromation about users: most upvoted for each one (comments), total comments 
