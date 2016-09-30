@@ -26,6 +26,13 @@ This dataset is over 1 terabyte uncompressed, so this would be best for larger r
 https://www.reddit.com/r/datasets/comments/3bxlg7/i_have_every_publicly_available_reddit_comment/
 
 ##############################
+Reddit Glossary
+Top - Sorted based on most upvotes over a certain period of time
+New -  Most recent 
+Hot - lot of upvotes and current activity right now.
+Controversial - very even amounts of up/downvotes and a lot of activity.
+
+##############################
 
 What are we gonna do with data?
 
